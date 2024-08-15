@@ -20,9 +20,9 @@ public static void main(String[] args){
         num=num /10;
     }
     if(orig_num == rev){
-        System.out.println(orig_num+ " is palindrom");
+        System.out.println("Number is palindrom");
     }else 
-        System.out.print(orig_num+ " is not");
+        System.out.println("Number is not a palindrom");
 }
 
 }
