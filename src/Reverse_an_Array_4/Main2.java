@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+
 package Reverse_an_Array_4;
 
 import java.util.Scanner;
@@ -15,12 +12,12 @@ public static void main(String[] args){
     System.out.print("Enter a number: ");
     
     int num =sc.nextInt();
-    int orig_num=num;
     int rev=0;
     while(num != 0){
-        rev=rev*10 + num%10;
+        int rem= num%10;
+        rev=rev*10 + rem;
         num=num /10;
     }
-    System.out.print(rev);
+    System.out.println(rev);
 }
 }
